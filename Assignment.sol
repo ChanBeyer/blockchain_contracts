@@ -415,16 +415,5 @@ function weddingObjection() public onlyGuests()
 
 
 
-  // TODO: Delete before deployment
-  function initiateTestValaues() public {
-  	Contractor1 = 0xCA35b7d915458EF540aDe6068dFe2F44E8fa733c;
-  	Contractor2 = 0x14723A09ACff6D2A60DcdF7aA4AFf308FDDC160C;
-    setWeddingDate(2019, 4, 13, 12,0, 0); // Date: 13.04.2020 at 12:00
-    setInvitationDeadline(2020, 4, 13, 11, 0, 0);
-   // deleteAllGuests();
-  	addGuest(0, 0x4B0897b0513fdC7C541B6d9D7E929C4e5364D2dB);
-    state = State.Created;
-
-
   }
 }
